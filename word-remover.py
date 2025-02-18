@@ -1,10 +1,10 @@
 import os
 
 def remove_first_n_words(filename, n):
-    # Dosya ismini isim ve uzantı olarak ayır
+    # Dosya ismini "isim" ve "uzantı" olarak ayır.
     name, ext = os.path.splitext(filename)
     
-    # İsmi kelimelere ayır
+    # İsmi kelimelere ayır.
     words = name.split()
     
     # Eğer kelime sayısı n'den küçükse, hata fırlat

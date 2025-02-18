@@ -4,9 +4,11 @@
 
 ***
 
-- Program, öncelikle silinecek kelime için "Baştan mı, yoksa sondan mı?" sorusunu sormaktadır. Sonrasında ise, kaç kelime silineceği sorulmaktadır.
+- Baştan veya sondan kelime silmek mümkündür.
 
-- İsimleri değiştirilecek dosyalar, "files" klasörü içerisinde yer almalıdır.
+- Kullanıcıya, kaç kelime sileceği sorulmaktadır.
+
+- İşlem yapılacak dosyalar, "files" klasörü içerisinde yer almalıdır.
 
 - Tek kelimeli dosyalarda "kelime silme" işlemi engellenmiştir.
 
