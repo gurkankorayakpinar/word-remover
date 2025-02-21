@@ -10,7 +10,7 @@
 
 - İşlem yapılacak dosyalar, "files" klasörü içerisinde yer almalıdır.
 
-- İki fonksiyonda da kullanılan `len(words)` yapısı sayesinde, tek kelimeden ibaret dosyalarda "kelime silme" işlemi engellenmiştir.
+- `len(words)` fonksiyonu sayesinde, tek kelimeden ibaret dosyalarda "kelime silme" işlemi engellenmiştir.
 
 - Kelime silme işlemlerinin akabinde, en sağdaki ve en soldaki boşlukların otomatik olarak temizlenmesi sağlanmıştır.
 
