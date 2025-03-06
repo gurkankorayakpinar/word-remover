@@ -1,17 +1,19 @@
 # Word Remover
 
-- Bu proje, belirli bir klasördeki dosya isimleri üzerinde "kelime silme" işlemi yapılabilen bir uygulamadır.
+- Bu proje, belirli bir klasördeki dosya isimleri üzerinde "kelime silme" işlemi yapan bir uygulamadır.
 
 ***
+
+- İşlem yapılacak dosyalar, "files" klasörü içerisinde yer almalıdır.
+
+- Kelime silme işlemi, "files" klasörü içerisindeki tüm dosyalara uygulanır.
 
 - Baştan veya sondan kelime silmek mümkündür.
 
 - Kullanıcıya, kaç kelime sileceği sorulmaktadır.
 
-- İşlem yapılacak dosyalar, "files" klasörü içerisinde yer almalıdır.
+- Tek kelimeden oluşan dosyalar için "kelime silme" işlemi, `len(words)` fonksiyonu sayesinde engellenmiştir.
 
-- `len(words)` fonksiyonu sayesinde, tek kelimeden ibaret dosyalarda "kelime silme" işlemi engellenmiştir.
-
-- Kelime silme işlemlerinin akabinde, en sağdaki ve en soldaki boşlukların otomatik olarak temizlenmesi sağlanmıştır.
+- Kelime silme işleminin akabinde, en sağdaki ve en soldaki boşlukların otomatik olarak temizlenmesi sağlanmıştır.
 
 - Olası hatalar için "Exception Handling" uygulanmıştır.
