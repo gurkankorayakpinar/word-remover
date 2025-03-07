@@ -30,7 +30,7 @@ def remove_last_n_words(filename, n):
     if len(words) <= n:
         raise ValueError(f'Hata! {n} kelime silinebilmesi için, en az {n+1} kelime olmalıdır: "{filename}"')
     else:
-        # Sondan n kelimeyi sil ve kalanı birleştir
+        # Sondan "n" kelimeyi sil ve kalanı birleştir.
         new_name = ' '.join(words[:-n])
         # Baştaki ve sondaki boşlukları temizle.
         new_name = new_name.strip()
@@ -59,7 +59,7 @@ def rename_files_in_folder(folder_path, n, remove_from_start):
             # Eğer dosya isminde yeterli kelime yoksa, mesaj göster.
             print(e)
         except FileExistsError:
-            # Eğer aynı isimde bir dosya zaten varsa, mesaj göster.
+            # Eğer aynı isimde bir dosya daha varsa, mesaj göster.
             print(f'Aynı isimde başka bir dosya var: "{new_filename}" --→ İşlem gerçekleştirilemedi.')
         except Exception as e:
             # Diğer hatalar için genel bir mesaj göster.
